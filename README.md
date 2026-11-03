@@ -63,7 +63,7 @@ header (`{{$guid}}`) so retries stay safe.
 | [pathly-sdk-python](https://github.com/pathlyhq/pathly-sdk-python) | Python SDK |
 | [pathly-sdk-ruby](https://github.com/pathlyhq/pathly-sdk-ruby) | Ruby gem |
 | [pathly-sdk-typescript](https://github.com/pathlyhq/pathly-sdk-typescript) | `@pathlyhq/sdk` |
-| [pathly-terraform-provider](https://github.com/pathlyhq/pathly-terraform-provider) | Terraform / OpenTofu |
+| [terraform-provider-pathly](https://github.com/Pathlyhq/terraform-provider-pathly) | Terraform / OpenTofu |
 
 ## About Pathly
 

@@ -1,4 +1,4 @@
-# Same checks as .gitlab-ci.yml (validate-json).
+# CI checks (validate-json).
 name: CI
 
 on:
