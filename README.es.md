@@ -64,7 +64,7 @@ Las creaciones (`POST` / `PUT` en recursos mutables) incluyen un encabezado
 | [pathly-sdk-python](https://github.com/pathlyhq/pathly-sdk-python) | SDK Python |
 | [pathly-sdk-ruby](https://github.com/pathlyhq/pathly-sdk-ruby) | Gem Ruby |
 | [pathly-sdk-typescript](https://github.com/pathlyhq/pathly-sdk-typescript) | `@pathlyhq/sdk` |
-| [pathly-terraform-provider](https://github.com/pathlyhq/pathly-terraform-provider) | Terraform / OpenTofu |
+| [terraform-provider-pathly](https://github.com/Pathlyhq/terraform-provider-pathly) | Terraform / OpenTofu |
 
 ## Acerca de Pathly
 

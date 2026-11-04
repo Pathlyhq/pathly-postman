@@ -1,0 +1,25 @@
+# CI checks (validate-json).
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          for f in Pathly.postman_collection.json Pathly.postman_environment.json; do
+            python3 -m json.tool "$f" > /dev/null
+            echo "$f: ok"
+          done
